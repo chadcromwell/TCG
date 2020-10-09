@@ -1,0 +1,60 @@
+/* Media Queries */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+div[class*="header"] {
+    opacity: 1.0;
+}
+
+div[class*="header"]:hover {
+    opacity: 0.5;
+}
+
+
+div[class*="selectedHeader"] {
+    opacity: 0.5;
+}
+
+.wrap {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+tr {
+    line-height: 2vh;
+    min-height: 1.5vh;
+    height: 2vh;
+}
+
+.display-1 {
+    font-size: 7vh;
+}
+
+/*
+Extra small (xs) devices (portrait devices, less than 576px)
+No media query because it is the Bootstrap default
+
+Small (sm) devices (landscape devices, 576px+)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px+)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px+)
+@media (min-width: 992px) { ... }
+
+Extra large (xl) devices (hi-res desktops, 1200px+)
+@media (min-width: 1200px) { ... }
+
+ */

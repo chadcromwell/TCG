@@ -1,0 +1,63 @@
+
+/* Media Queries */
+@media (min-width: 1920px) {
+    #statButtons h1 {
+        font-size: 3vw;
+    }
+    #statButtons p {
+        font-size: 1.5vw;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+    #statButtons h1 {
+        font-size: 3vw;
+    }
+    #statButtons p {
+        font-size: 1.5vw;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+    #statButtons h1 {
+        font-size: 3vw;
+    }
+
+    #statButtons p {
+        font-size: 1.5vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    #statButtons h1 {
+        font-size: 3vw;
+    }
+
+    #statButtons p {
+        font-size: 1.5vw;
+    }
+}
+@media (min-width: 0px) and (max-width: 767px){
+    #statButtons h1 {
+        font-size: 5vw;
+    }
+
+    #statButtons p {
+        font-size: 2vw;
+    }
+}
+
+/*
+Extra small (xs) devices (portrait devices, less than 576px)
+No media query because it is the Bootstrap default
+
+Small (sm) devices (landscape devices, 576px+)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px+)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px+)
+@media (min-width: 992px) { ... }
+
+Extra large (xl) devices (hi-res desktops, 1200px+)
+@media (min-width: 1200px) { ... }
+
+ */

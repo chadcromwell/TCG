@@ -1,0 +1,160 @@
+
+/* Media Queries */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+.card-img-caption {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    position: relative;
+}
+
+.card-img-caption .card-img-top {
+    z-index: 0;
+}
+
+div[id*="Title"] {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 4%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+div[id*="Class"] {
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 24%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2vw;
+ }
+
+div[id*="Element"]{
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 8%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2vw;
+}
+
+div[id*="Size"]{
+    width: 100%;
+    margin-left: -37%;
+    margin-top: 39%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2vw;
+    text-align: center;
+}
+
+div[id*="Range"]{
+    width: 100%;
+    margin-left: 38%;
+    margin-top: 128%;
+    position: absolute;
+    z-index: 1;
+    font-size: 3vw;
+    text-align: center;
+}
+
+div[id*="Attack"]{
+    width: 100%;
+    margin-left: -36%;
+    margin-top: 119%;
+    position: absolute;
+    z-index: 1;
+    font-size: 3vw;
+    text-align: center;
+}
+
+div[id*="Defense"]{
+    width: 100%;
+    margin-left: -32%;
+    margin-top: 130%;
+    position: absolute;
+    z-index: 1;
+    font-size: 3vw;
+    text-align: center;
+}
+
+div[id*="Hp"]{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 128%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+div[id*="TypeId"]{
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 81%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5vw;
+}
+
+div[id*="Interval"]{
+    width: 100%;
+    margin-left: 36%;
+    margin-top: 81%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+div[id*="Description"]{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 110%;
+    position: absolute;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.wrap {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.display-1 {
+    font-size: 7vh;
+}
+
+/*
+Extra small (xs) devices (portrait devices, less than 576px)
+No media query because it is the Bootstrap default
+
+Small (sm) devices (landscape devices, 576px+)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px+)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px+)
+@media (min-width: 992px) { ... }
+
+Extra large (xl) devices (hi-res desktops, 1200px+)
+@media (min-width: 1200px) { ... }
+
+ */
